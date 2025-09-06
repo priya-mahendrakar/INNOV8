@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>EcoFinds - Register</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>EcoFinds - Register</h1>
+  </header>
+  <div class="container">
+    <form id="registerForm">
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="username" placeholder="Username" />
+      <input type="password" id="password" placeholder="Password" required minlength="6" />
+      <button type="submit">Register</button>
+    </form>
+    <p>Already have an account? <a href="login.html">Login</a></p>
+    <p id="registerMessage" style="color: red;"></p>
+  </div>
+  <script src="js/auth.js"></script>
+</body>
+</html>

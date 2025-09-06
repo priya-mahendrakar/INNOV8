@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>EcoFinds - Products</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <h1>EcoFinds</h1>
+    <nav>
+      <a href="dashboard.html">Dashboard</a> |
+      <a href="my_listings.html">My Listings</a> |
+      <a href="cart.html">Cart</a> |
+      <a href="#" id="logout">Logout</a>
+    </nav>
+  </header>
+  <div class="container">
+    <input type="text" id="searchInput" placeholder="Search products..." />
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Furniture">Furniture</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Books">Books</option>
+      <option value="Other">Other</option>
+    </select>
+    <button id="filterBtn">Filter</button>
+    <button id="addNewBtn">+ Add New Product</button>
+
+    <div id="productList"></div>
+  </div>
+  <script src="js/product.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
